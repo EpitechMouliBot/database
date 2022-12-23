@@ -1,3 +1,3 @@
 FROM mysql
 EXPOSE 3306
-COPY ./api-db.sql /docker-entrypoint-initdb.d/
+COPY ./api-db-docker.sql /docker-entrypoint-initdb.d/
